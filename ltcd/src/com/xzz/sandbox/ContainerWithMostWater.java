@@ -1,8 +1,5 @@
 package com.xzz.sandbox;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.xzz.util.Timing;
 
 public class ContainerWithMostWater {

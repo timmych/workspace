@@ -7,9 +7,20 @@ public class TreeNode {
 	public int val;
 	public TreeNode left;
 	public TreeNode right;
+	public TreeNode parent;
 	
 	public TreeNode(int va){
 		this.val = va;
+	}
+	
+	public void setLeft(TreeNode l){
+		l.parent = this;
+		this.left = l;
+	}
+	
+	public void setRight(TreeNode r){
+		r.parent = this;
+		this.right = r;
 	}
 	
 	public static TreeNode parseTree(String data){
