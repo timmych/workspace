@@ -1,5 +1,8 @@
 package com.foo.bar.data;
 
+/**
+* TreeNode
+*/
 public class TreeNode <T> {
 
 	/**
